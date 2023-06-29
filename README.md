@@ -22,9 +22,10 @@ Demonstration of finding the maximum value from a set of 100 random signed 16-bi
 - Write Enable
 
 ## Assembler Usage
+Once the program is run, type in the name of the .txt file you would like to run and the assembler will generate a set of instrctions that can be pasted in the Cache to run properly.
+
 To use the assembler script, you must follow the highlighted instruction codes below. To see examble function, see Test Files folder above.
 
-Once the program is run, type in the name of the .txt file you would like to run and the assembler will generate a set of instrctions that can be pasted in the Cache to run properly.
 
 ## Instructions
 
