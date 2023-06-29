@@ -1,2 +1,3 @@
-# ALU
-Model Microprocessor based off of ARM architecture made in Logisim
+# ALU | Model ARM Microprocessor
+Microprocessor based on ARM architecture made in Logisim
+
