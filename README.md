@@ -1,7 +1,7 @@
 # ALU | Model ARM Microprocessor
 
 ## Background
-Arithmetic Logic Unit microprocessor based on ARM architecture made in Logisim. This logic unit can be used to create loops and conditional statements to make calculations and logical decsions. It operates on binary numbers, manipulating individual bits based on the desired operation. The ALU takes input from registers, processes the data according to the specified operation, and produces an output that can be stored back in registers. The registers and RAM are in HEX for visualization. 
+This is an Arithmetic Logic Unit microprocessor based on ARM architecture made in Logisim. This logic unit can be used to create loops and conditional statements to make calculations and logical decsions. It operates on binary numbers, manipulating individual bits based on the desired operation. The ALU takes input from registers, processes the data according to the specified operation, and produces an output that can be stored back in registers. The registers and RAM are in HEX for visualization. 
 
 ![Max100 Demo](https://github.com/SarthakSarans/ALU/assets/63066248/1312c74a-0039-4836-9fc3-a913eac36115)
 Demonstration of finding the maximum value from a set of 100 random signed 16-bit numbers. Final answer: 3fff
