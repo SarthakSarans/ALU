@@ -1,0 +1,23 @@
+	add R0,R1   # R0 = 21
+	add R0,R1   # R0 = 3C
+	jmp t0
+	add R0,R1   # R0 = 57
+	add R0,R1
+	add R0,R1
+	add R0,R1
+	add R0,R1
+	add R0,R1
+t0:	sub R0,R1	# R0 = 3C
+	sub R0,R1	# R0 = 21
+	sub R0,R1	# R0 = 6
+	nop
+	add R0,R1	# R0 = 21
+	jmp t1
+	sub R0,R1	# R0 = 6
+	sub R0,R1
+	sub R0,R1
+t1:	add R0,R0	# R0 = 0C
+	halt
+t2:	jmp t2
+	nop
+	nop

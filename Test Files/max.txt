@@ -1,0 +1,26 @@
+ldi R3, 1
+ldi R2, 0
+ld R2,R2
+ld R0, R2
+
+
+jmpn t2
+ldi R3,1
+
+
+add R2, R3
+ld R1,R2
+sub R0,R1
+jmpn t1
+jmp t0
+add R0,R1
+
+
+t1: mv R0,R1
+  jmp t0
+  sub R2,R3
+
+
+t2: halt
+  jmp t2       # DONE !!!
+  nop

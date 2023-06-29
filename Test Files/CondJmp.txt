@@ -1,0 +1,6 @@
+sub R0,R1
+	sub R0,R1
+	sub R0,R1
+L0:	jmpn L0
+	add R0,R1
+	add R1,R0

@@ -1,0 +1,21 @@
+ldi R0, 0
+ld R2, R0
+ld R0, R2
+ldi R1,1
+ld R3, R1
+t0: ld R2, R3
+sub R3, R1
+sub R2, R0
+jmpn t2
+add R2, R0
+mv R0, R2
+
+t2: sub R1,R1
+ld R1, R1
+sub R1, R3
+jmpn t0
+ldi R1, 1
+
+t3: halt
+D: jmp D
+  nop

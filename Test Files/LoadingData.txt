@@ -1,0 +1,28 @@
+ldI R0, 1
+load R1, R2
+add R0, R1
+ldI R2, 1
+load R1, R2
+add R0, R1
+ldI R2, 2
+load R1, R2
+add R0, R1
+ldI R2, 3
+load R1, R2
+add R0, R1
+ldI R3, 1
+add R2,R3
+load R1, R2
+sub R0, R1
+ldI R3, 1
+add R2,R3
+load R1, R2
+sub R0, R1
+ldI R3, 1
+add R2,R3
+load R1, R2
+sub R0, R1
+ldI R3, 1
+add R2,R3
+load R1, R2
+sub R0, R1

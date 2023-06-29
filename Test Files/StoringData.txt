@@ -1,0 +1,38 @@
+ldI R0, 1
+ldI R1, 0
+ldI R2,0
+ldi R3, 1
+add R1, R0
+store R0,R2
+add R2, R3
+
+add R0,R1
+st R0,R2
+add R2, R3
+
+add R1,R0
+st R1,R2
+add R2, R3
+
+add R0,R1
+st R0,R2
+add R2, R3
+
+add R1,R0
+st R1,R2
+add R2, R3
+add R0,R1
+st R0,R2
+add R2, R3
+add R1,R0
+st R1,R2
+add R2, R3
+add R0,R1
+st R0,R2
+add R2, R3
+add R1,R0
+st R1,R2
+add R2, R3
+add R0,R1
+st R0,R2
+add R2, R3
