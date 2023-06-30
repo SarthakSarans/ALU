@@ -42,7 +42,7 @@ To use the assembler script, you must follow the highlighted instruction codes b
 | Instruction       | [7:2]  | [1:0]      | Format      | Description |
 | :---        |    :----:   |    :----:     |    :----:   | :---        |
 | Jump ```jmp```      | target PC   | 00        | jmp label        | PC = targ PC     |
-|Conditional Jump ```jmpn```      | target pC       | 01   |jpmn label        | if r<0 PC = targ PC        |
+|Conditional Jump ```jmpn```      | target pC       | 01   |jmpn label        | if r<0 PC = targ PC        |
 
 ### Addition
 Takes the sum of the two input registers and stores in Rd register.
